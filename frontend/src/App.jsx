@@ -3,7 +3,7 @@ import Controls from './components/Controls'
 import Grid from './components/Grid'
 import Metrics from './components/Metrics'
 
-const API = '/api'
+const API = 'https://wumpus-backend.onrender.com' 
 
 export default function App() {
   const [rows, setRows] = useState(4)
